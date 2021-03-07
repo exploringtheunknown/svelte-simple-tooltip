@@ -1,7 +1,7 @@
 # svelte-simple-tooltip
 A very simple Svelte Tooltip Action to put on HTML elements
 
-![Example](hhttps://github.com/nordquist/svelte-simple-tooltip/blob/main/tooltip_0.gif?raw=true)
+![Example](https://github.com/nordquist/svelte-simple-tooltip/blob/main/tooltip_0.gif?raw=true)
 
 ## Usage
 ```
