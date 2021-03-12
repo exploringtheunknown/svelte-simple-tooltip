@@ -38,6 +38,7 @@
       max-width: 16rem;
       height:auto;
       clear : both;
+      z-index: 99999;
     ">
       <div class="tooltip-inner-wrapper">
           <div class="body" style="
