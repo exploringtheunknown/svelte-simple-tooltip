@@ -1,11 +1,17 @@
 # svelte-simple-tooltip
+
+[![npm version](https://badge.fury.io/js/svelte-simple-tooltip.svg)](https://badge.fury.io/js/svelte-simple-tooltip)
+
+
 A very simple Svelte Tooltip Action to put on HTML elements
 
 ![Example](https://github.com/nordquist/svelte-simple-tooltip/blob/main/tooltip_0.gif?raw=true)
 
+
+
 ## Usage
 ```javascript
-import tooltip from './tooltip.js';
+import tooltip from 'svelte-simple-tooltip';
 
 use:tooltip={options}
 ```
@@ -17,6 +23,7 @@ use:tooltip={options}
 * bodyClassList - A string containing classes you would like to apply to the outer wrapper of the tooltip
 * titleClassList - A string containing classes you would like to apply to the title element of the tooltip
 * position - CSS values to position the tooltip with position _absolute_ from its relative parent
+
 
 ______________________________________
 

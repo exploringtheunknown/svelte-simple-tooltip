@@ -1,0 +1,26 @@
+{
+  "name": "svelte-simple-tooltip",
+  "version": "1.0.0",
+  "description": "A small tooltip lib for Svelte",
+  "main": "tooltip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordquist/svelte-simple-tooltip.git"
+  },
+  "keywords": [
+    "svelte",
+    "sapper",
+    "tooltip",
+    "queenslab",
+    "happyatwork"
+  ],
+  "author": "Marcus Nordquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nordquist/svelte-simple-tooltip/issues"
+  },
+  "homepage": "https://github.com/nordquist/svelte-simple-tooltip#readme"
+}
