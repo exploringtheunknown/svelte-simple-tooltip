@@ -1,4 +1,5 @@
-const getTitleTemplate = (options) => {
+  const getTitleTemplate = (options) => {
+
     return `
       <div class="title-wrapper"
       style="
@@ -14,11 +15,23 @@ const getTitleTemplate = (options) => {
   }
   
   const getTemplate = (options) => {
+    let top = '.4rem';
+    let right = '0';
+    let bottom = '0';
+    let left = '.2rem';
+
+    if(options.position) {
+      top = options.position.top;
+      right = options.position.right;
+      bottom = options.position.bottom;
+      left = options.position.left;
+    }
+
     return `
     <div class="tooltip-outer-wrapper" style="
       opacity: ${options.opacity};
       position: absolute;
-      margin: 0.4rem 0 0 0.2rem;
+      margin: ${top} ${right} ${bottom} ${left};
       padding: 0;
       font-size: 0.7rem;
       transition: all 0.5s;
@@ -40,7 +53,6 @@ const getTitleTemplate = (options) => {
     </div>
     `
   }
-  
   
   const getOuterWrapperNode = (wrappingElement) => {
     for (var i = 0; i < wrappingElement.childNodes.length; i++) {
